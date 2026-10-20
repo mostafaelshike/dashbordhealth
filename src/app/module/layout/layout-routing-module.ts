@@ -37,12 +37,6 @@ const routes: Routes = [
 },
      
  
-      {
-        path: 'sting',
-        loadChildren: () => import('../sting/sting-module').then(m => m.StingModule)
-      },
-     
-    
     ]
 
   }

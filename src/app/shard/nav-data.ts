@@ -43,9 +43,4 @@ export const NAVBAR_DATA: NavItem[] = [
     label: 'العملاء',
     icon: 'bi-people',
   },
-  {
-    path: '/dashboard/sting',
-    label: 'الإعدادات',
-    icon: 'bi-gear',
-  },
 ];

@@ -15,8 +15,8 @@ button {
 
 .dashboard {
   width: 100%;
-  min-height: 100vh;
-  padding: clamp(14px, 2.3vw, 30px);
+  min-height: calc(100vh - 88px);
+  padding: 16px;
   background: #f5f7fa;
 }
 
@@ -595,6 +595,7 @@ button {
 
 @media (max-width: 640px) {
   .dashboard {
+    min-height: calc(100vh - 70px);
     padding: 12px;
   }
 
